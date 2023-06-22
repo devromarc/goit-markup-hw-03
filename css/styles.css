@@ -1,0 +1,133 @@
+:root {
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.rmv-bullet,
+.filter-btn,
+.projects {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--navy-blue);
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.nav-bar {
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-active {
+  color: #404bbf;
+}
+.nav-right,
+.desc-second-section,
+.team-title,
+.projects-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+.nav-right-decor {
+  text-decoration: none;
+}
+
+.nav-right:hover,
+.nav-bar:active {
+  color: #4d5ae5;
+}
+.hero-title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  /* for viewing purposes. I didnt change the default color */
+  /* color: #ffffff; */
+}
+
+.btn-studio-mid {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-studio-mid:hover {
+  background-color: #404bbf;
+}
+
+.title-second-section,
+.team-name,
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--navy-blue);
+  line-height: 1;
+}
+
+.desc-footer {
+  line-height: 1.5;
+  font-size: 16px;
+  /* for viewing purposes. I didnt change the default color */
+  /* color: #ffffff; */
+}
+
+/* Portfolio*/
+
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.filter-btn {
+  list-style-type: none;
+}
+.projects {
+  list-style-type: none;
+}
+.btn-portfolio:hover {
+  color: white;
+  background-color: #404bbf;
+  border: 1px solid #404bbf;
+}
+
+.btn-portfolio-active {
+  color: white;
+  background-color: #404bbf;
+  border: 1px solid #404bbf;
+}
